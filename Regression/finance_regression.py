@@ -64,7 +64,7 @@ plt.scatter(feature_test[0], target_test[0], color=train_color, label="train")
 try:
     plt.plot( feature_test, reg.predict(feature_test) )
 except NameError:
-    pass
+    pass 
 plt.xlabel(features_list[1])
 plt.ylabel(features_list[0])
 plt.legend()
